@@ -73,3 +73,66 @@ body {
 .contacts .link:hover {
   color: var(--accent-color);
 }
+
+/* HERO */
+
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* FEATURES */
+
+.features-title {
+}
+
+.features-text {
+  color: var(--title-text-color);
+}
+
+/* ABOUT US */
+
+.about {
+}
+
+.about-title {
+}
+
+/* team */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+}
+
+.team-list-item {
+  color: var(--title-text-color);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.footer .logo {
+  color: var(--primary-white-color);
+}
+
+.adress-link {
+  color: var(--primary-white-color);
+}
+
+.contacts-list .link {
+  color: rgba(255, 255, 255, 0.6);
+}
