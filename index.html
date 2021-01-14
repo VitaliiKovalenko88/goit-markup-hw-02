@@ -2,33 +2,35 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title lang="en">WebStudio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
     crossorigin="anonymous" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title lang="en">WebStudio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <!-- BODY -->
 
-<body>
+<body class="body">
   <header class="header">
     <!-- SITE NAV -->
     <nav class="site-nav">
-      <a href="./index.html" title="главная страница" class="logo link"><span class="logo-web">Web</span>Studio</a>
-      <ul class="site-nave list">
+      <a href="./index.html" title="главная страница" class="logo"><span class="logo-web">Web</span>Studio</a>
+      <ul class="site-nave-list">
         <li class="site-nav-item"><a href="./index.html" class="link current">Студия</a></li>
         <li class="site-nav-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
         <li class="site-nav-item"><a href="#" class="link">Контакты</a></li>
       </ul>
     </nav>
-    <ul class="contacts list">
-      <li class="contacts-item"><a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a></li>
-      <li class="contacts-item"><a href="tel.+380961111111" class="tel link">+38 096 111 11 11</a></li>
+    <ul class="header-contacts">
+      <li class="header-contact"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+      </li>
+      <li class="header-contact"><a href="tel.+380961111111" class="link">+38 096 111 11 11</a></li>
     </ul>
   </header>
   <!-- MAINE -->
@@ -69,8 +71,7 @@
             width="370" height="294"></li>
         <li class="about-list-image"><img src="./images/images-index/img2.jpg"
             alt="человек державший в однлй руке телефон а вторую руку положил на компюьер в каком то офисе" width="370"
-            height="294">
-        </li>
+            height="294"></li>
         <li class="about-list-image"><img src="./images/images-index/img3.jpg"
             alt="чьи то руки держащие в руках планшет перед компютером" width="370" height="294"></li>
       </ul>
@@ -82,41 +83,39 @@
         <li class="team-list-item"> <img src="./images/images-index/img4.jpg"
             alt="улыбающийся Игорь Демьяненко с бородой и в очках в бордовой рубашке" width="270" height="260">
           <h3 class="team-list-name">Игорь Демьяненко</h3>
-          <p lang="en" class="team-list-text-profession">Product Designer</p>
+          <p lang="en" class="team-list-profession">Product Designer</p>
         </li>
         <li class="team-list-item">
           <img src="./images/images-index/img5.jpg" alt="красивая и улыбающаяся Ольга Репина в очках и чорном пиджаке"
             width="270" height="260">
           <h3 class="team-list-name">Ольга Репина</h3>
-          <p lang="en" class="team-list-text-profession">Frontend Developer</p>
+          <p lang="en" class="team-list-profession">Frontend Developer</p>
         </li>
         <li class="team-list-item">
           <img src="./images/images-index/img6.jpg" alt="черезчур улыбающийся Николай Тарасов в голубой рубашке"
             width="270" height="260">
           <h3 class="team-list-name">Николай Тарасов</h3>
-          <p lang="en" class="team-list-text-profession">Marketing</p>
+          <p lang="en" class="team-list-profession">Marketing</p>
         </li>
         <li class="team-list-item"> <img src="./images/images-index/img7.jpg"
             alt="хитро улыбающийся Михаил Ермаков в чорной футболке" width="270" height="260">
           <h3 class="team-list-name">Михаил Ермаков</h3>
-          <p lang="en" class="team-list-text-profession">UI Designer</p>
+          <p lang="en" class="team-list-profession">UI Designer</p>
         </li>
       </ul>
     </section>
   </main>
   <!--footer-->
   <footer class="footer">
-    <a href="./index.html" title="переход на главную страницу" class="logo link">
-      <span class="logo-web">Web</span>Studio</a>
+    <a href="./index.html" title="переход на главную страницу" class="logo"><span class="logo-web">Web</span>Studio</a>
     <address class="adress">
-      <a href="https://goo.gl/maps/4jQuwbv64BxVn1Br7" class="adress-link">г.
+      <a href="https://goo.gl/maps/4jQuwbv64BxVn1Br7" class="adress-name link">г.
         Киев, пр-т Леси Украинки, 26</a>
     </address>
-    <ul class="contacts-list">
-      <li class="contacts-item"><a href="mailto:info@example.com" class="mail link">info@example.com</a></li>
-      <li class="contacts-item"><a href="tel:+380991111111" class="tel link">+38 099 111 11 11</a></li>
+    <ul class="footer-contacts">
+      <li class="footer-contact"><a href="mailto:info@example.com" class="contakt-mail link">info@example.com</a></li>
+      <li class="footer-contact"><a href="tel:+380991111111" class="contakt-tel link">+38 099 111 11 11</a></li>
     </ul>
-
   </footer>
 </body>
 
