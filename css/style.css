@@ -292,6 +292,8 @@ ul {
 }
 
 .portfolio-name-product {
+  color: var(--primary-text-color);
+
   font-style: var(--regular-font-weight);
   font-weight: var(--regular-font-weight);
   font-size: 16px;
