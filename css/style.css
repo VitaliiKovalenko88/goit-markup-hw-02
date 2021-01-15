@@ -28,6 +28,10 @@ body {
   letter-spacing: var(--letter-spacing);
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* <<<<<<<< COMPONENTS >>>>>>>> */
 
 .studio-logo {
@@ -223,9 +227,15 @@ body {
 .adress-name {
   color: var(--primary-white-color);
 
-  font-weight: 400;
+  font-weight: var(--regular-font-weight);
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
 }
 
 .adress-name:hover,
@@ -283,7 +293,7 @@ body {
 
 .portfolio-name-product {
   font-style: var(--regular-font-weight);
-  font-weight: -;
+  font-weight: var(--regular-font-weight);
   font-size: 16px;
   line-height: 1.87;
 }
