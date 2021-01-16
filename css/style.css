@@ -6,12 +6,13 @@
   --primary-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
   --black-color: #000000;
+  --secondary-accent-color: #188ce8;
   --bold-font-weight: 700;
   --regular-font-weight: 400;
   --medium-font-weight: 500;
   --black-font-weight: 900;
   --primery-letter-spacing: 0.03em;
-  --secondary-accent-color: #188ce8;
+  
 }
 
 a {
