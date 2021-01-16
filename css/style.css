@@ -206,7 +206,7 @@ ul {
 }
 
 .team-list-profession {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
 
   font-weight: 400;
   font-size: 16px;
@@ -233,11 +233,6 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
 }
 
 .adress-name:hover,
